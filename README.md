@@ -1,3 +1,4 @@
+
 # Linux Command Sheet — For Cybersecurity Professionals
 
 A structured, categorised reference of Linux commands with plain-English explanations, built for security practitioners, students, and anyone working daily on the Linux CLI.
@@ -40,7 +41,8 @@ Found a missing command or a category that needs expanding? Pull requests are we
 
 ## 📜 License
 
-This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license — see [LICENSE](./LICENSE) for details.
+- **Code / scripts** (if any added later): [MIT License](./LICENSE)
+- **Written content** (command explanations, notes): [CC BY 4.0](./LICENSE-CONTENT) — free to share and adapt, with credit to MR CYBER HARSH.
 
 ## 📬 Contact
 
