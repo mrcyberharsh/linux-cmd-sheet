@@ -30,6 +30,19 @@ Each entry is designed to pair a command with a concise explanation. Check the d
 
 [Download the Linux Command Sheet (DOCX)](./Linux_Command_Sheet_Cybersecurity_MrCyberHarsh.docx)
 
+## Search from the terminal
+
+Install the small Python dependency and search the DOCX without opening Word:
+
+```bash
+python -m pip install -r requirements.txt
+python search_sheet.py ssh
+python search_sheet.py firewall --limit 30
+python search_sheet.py --list-sections
+```
+
+The search utility reads paragraphs and tables from the DOCX. It does not execute commands.
+
 ## How to use this reference
 
 1. Find the category that matches the task.
@@ -53,7 +66,7 @@ Please include the distribution or tool version when behavior differs between sy
 ## License
 
 - Code and scripts: [MIT License](./LICENSE)
-- Written content: [CC BY 4.0](./LICENSE-CONTENT)
+- Written content: CC BY 4.0 (see the [Creative Commons license](https://creativecommons.org/licenses/by/4.0/))
 
 Please provide attribution to **MR CYBER HARSH** when reusing the written content.
 
